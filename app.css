@@ -1,0 +1,63 @@
+hr {
+  border: none;
+  border-top: 1px dashed #000;
+  margin: 20px 0;
+}
+
+#form-wr {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 12px;
+}
+.form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+#form-wr input,
+#form-wr textarea {
+  padding: 0.5rem;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#prev-wr {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  padding: 1rem 0;
+}
+
+.prev-item {
+  display: flex;
+  flex-direction: column;
+}
+.prev-label {
+  font-weight: bold;
+}
+
+.form-copy-reset {
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+}
+
+.prev-value {
+  display: flex;
+  flex-direction: column;
+}
+
+#copy,
+#reset {
+  padding: 8px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
